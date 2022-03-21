@@ -1,7 +1,7 @@
 Original App Design Project - README Template
 ===
 
-# Motivational Quotes Application
+# Puggy - Motivational Quotes Application
 
 #### Group 7: Juan Arango, Juan Marquez, Taylor Bean
 
