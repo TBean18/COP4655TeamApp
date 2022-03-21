@@ -87,8 +87,8 @@ The application is programmable to send daily quotes or various quites throughou
    * =>None
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+
+<img src="https://i.imgur.com/bFjZLzu.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
