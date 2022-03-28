@@ -1,7 +1,7 @@
 Original App Design Project - README Template
 ===
 
-# Puggy - Motivational Quotes Application
+# Motivational Quotes Application
 
 #### Group 7: Juan Arango, Juan Marquez, Taylor Bean
 
@@ -95,10 +95,31 @@ The application is programmable to send daily quotes or various quites throughou
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
+
+
+| Property | Type | Description |
+| -------- | -------- | -------- |
+| userID    | String   | The id for each user (important to connect each user with the user matched in the database so that a user does not get repeated phrases)     |
+| author    | String   | The author of the phrase (useful for expanding into being able to look up specific author phrases)     |
+| phraseID    | String   | The id for the phrase in the database     |
+| styleID    | String   | The id for the style selected by the user, which will have predetermined font, size, and background selections     |
+| font    | String   | Determines what font is used in the phrases     |
+| size   | int   | Determines the size of the letters of the phrases     |
+| backgroundStyle   | String   | Shall determine what background colors and overall style will appear for the user given its selection     |
+| scheduleTime   | int   | For the selected preferred time to send a new motivational quote (may be a DateTime type)     |
+| likesCount (extra)    | int   | Counter for likes of the phrase of the day     |
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+List of network requests by screen
+**Home Feed Screen**
+(Read/GET) Query all phrases that shall be displayed in home screen
+(Create/POST) Create a new like on a post (extra)
+(Delete) Delete existing like (extra)
+**Styles**
+(Update/PUT) Update selected style for phrases
+**Profile Screen**
+(Read/GET) Query logged in user object
+(Update/PUT) Update scheduled time for phrase
+(Update/PUT) Update notifications preference
