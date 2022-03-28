@@ -112,14 +112,26 @@ The application is programmable to send daily quotes or various quites throughou
 | likesCount (extra)    | int   | Counter for likes of the phrase of the day     |
 
 ### Networking
+
 List of network requests by screen
+
 **Home Feed Screen**
+
 (Read/GET) Query all phrases that shall be displayed in home screen
+
 (Create/POST) Create a new like on a post (extra)
+
 (Delete) Delete existing like (extra)
+
 **Styles**
+
 (Update/PUT) Update selected style for phrases
+
 **Profile Screen**
+
 (Read/GET) Query logged in user object
+
 (Update/PUT) Update scheduled time for phrase
+
 (Update/PUT) Update notifications preference
+
