@@ -24,7 +24,7 @@ The application is programmable to send daily quotes or various quites throughou
 - **Story:** Allows users to receive a mindful and motivational quote on their preferred time to enhance their day positively.
 - **Market:** Anyone that is encourage to receive inspiring quotes will enjoy this application. Ability to customize and schedule quote notifications to the user's likes can make the app engage with further costumers.
 - **Habit:** Users can see the main feed with the quotes and on schedule the new quote may appear.
-- **Scope:** Theapplication's purpose of providing a daily quote has been expanded to its scope of a customizable schedule of quotes throughout the day, custom design, andopen to more features that may allow the user to enjoy and be inspire by our provided quotes even further.
+- **Scope:** The application's purpose of providing a daily quote has been expanded to its scope of a customizable schedule of quotes throughout the day, custom design, and open to more features that may allow the user to enjoy and be inspire by our provided quotes even further.
 
 ## Product Spec
 
@@ -101,7 +101,7 @@ The application is programmable to send daily quotes or various quites throughou
 | ------------------ | ------ | ------------------------------------------ |
 | objectID           | String | The id for the phrase in the database      |
 | author             | String | Quote Author                               |
-| quoteText          | String | The litteral quote text                    |
+| quoteText          | String | The literal quote text                    |
 | likesCount (extra) | int    | Counter for likes of the phrase of the day |
 
 ### User
