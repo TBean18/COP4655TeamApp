@@ -13,6 +13,8 @@
 
 ## Overview
 
+# Demo Changes
+
 ### Description
 
 The application is programmable to send daily quotes or various quites throughout the day depending on the users settings which lead to motivational quotes on the application. Scope involves different quotes, fonts, backgrounds, and profile set up. Database used for saving the quotes.
