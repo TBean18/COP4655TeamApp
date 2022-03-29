@@ -53,19 +53,13 @@ The application is programmable to send daily quotes or various quites throughou
 - Login Screen
   - User can login here
 - Registration Screen
-
   - User can register here
-
-- Quotes Screen
-
+- Stream Screen
   - User can view quotes in their feed here
-
 - Profile Screen
-
   - User can adjust schedule time for quotes
   - User can adjust notification settings
-
-- Style Screen
+- Settings Screen
   - User can adjust style settings for quotes
 
 ### 3. Navigation
