@@ -14,7 +14,7 @@ public class ParseApplication extends Application {
 // TODO
 //        ParseObject.registerSubclass(Post.class);
 
-//        Register Prase
+//        Register Parse
         Parse.initialize(new Parse.Configuration.Builder(this)
                 .applicationId(getString(R.string.back4app_app_id))
                 // if defined

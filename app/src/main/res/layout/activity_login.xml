@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
     android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_weight="1"
+        android:visibility="visible"
+        app:srcCompat="@drawable/puggylogo"
+        tools:src="@drawable/puggylogo"
+        tools:srcCompat="@drawable/puggylogo"
+        tools:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="cursive"
+        android:textSize="75dp"
+        android:text="Puggy"
+        android:gravity="center"
+        />
 
     <EditText
         android:id="@+id/loginUsername"
@@ -36,13 +59,15 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:text="Login" />
+        android:text="Login"
+        android:backgroundTint="@color/teal_200"/>
 
     <Button
         android:id="@+id/buttonSignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
-        android:text="Sign Up" />
+        android:text="Sign Up"
+        android:backgroundTint="@color/teal_200"/>
 
 </LinearLayout>
