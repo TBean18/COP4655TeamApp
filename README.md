@@ -32,20 +32,22 @@ The application is programmable to send daily quotes or various quites throughou
 
 **Required Must-have Stories**
 
-- User can create a new account
-- User can login
-- User can view the quote of the day
-- User can manage its own schedule for receiving more quotes
-- User can choose styles for its feed and quotes
+- [x] User can login
+- [x] User can Logout
+- [x] User can create a new account
+- [ ] User can view the quote of the day
+- [ ] User can view a stream of quotes
+- [ ] User can manage its own schedule for receiving more quotes
+- [ ] User can choose styles for its feed and quotes
 - ...
 
 **Optional Nice-to-have Stories**
 
-- User can like a quote
-- User can share a quote with a direct link to the application
-- User can comment on the quote
-- User can choose what categories of quotes it would like to see more of
-- User can submit a quote to the team for review
+- [ ] User can like a quote
+- [ ] User can share a quote with a direct link to the application
+- [ ] User can comment on the quote
+- [ ] User can choose what categories of quotes it would like to see more of
+- [ ] User can submit a quote to the team for review
 - ...
 
 ### 2. Screen Archetypes
@@ -101,7 +103,7 @@ The application is programmable to send daily quotes or various quites throughou
 | ------------------ | ------ | ------------------------------------------ |
 | objectID           | String | The id for the phrase in the database      |
 | author             | String | Quote Author                               |
-| quoteText          | String | The literal quote text                    |
+| quoteText          | String | The literal quote text                     |
 | likesCount (extra) | int    | Counter for likes of the phrase of the day |
 
 ### User
