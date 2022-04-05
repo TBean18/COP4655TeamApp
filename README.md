@@ -90,6 +90,7 @@ The application is programmable to send daily quotes or various quites throughou
 <img src="https://i.imgur.com/bFjZLzu.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
+![PuggyGif1](https://user-images.githubusercontent.com/84410271/161856496-18af0227-7d95-4b81-b08f-3fdca61b6236.gif)
 
 ### [BONUS] Interactive Prototype
 
