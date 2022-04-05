@@ -26,28 +26,29 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        bottomNavigationView = findViewById(R.id.bottomNavigation);
 
-//        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
-//            @Override
-//            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-//                Fragment fragment;
-//                switch (menuItem.getItemId()) {
-//                    case R.id.action_quotes:
-//                        fragment = new QuotesFragment();
-//                        break;
-//                    case R.id.action_styles:
-//                        fragment = new StylesFragment();
-//                        break;
-//                    case R.id.action_profile:
-//                    default:
-//                        fragment = new ProfileFragment();
-//                        break;
-//                }
-//                fragmentManager.beginTransaction().replace(R.id.flContainer, fragment).commit();
-//                return true;
-//            }
-//        });
-//        bottomNavigationView.setSelectedItemId(R.id.action_quotes);
+        bottomNavigationView.setOnItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+                Fragment fragment;
+                switch (menuItem.getItemId()) {
+                    case R.id.action_quotes:
+                        fragment = new QuotesFragment();
+                        break;
+                    case R.id.action_styles:
+                        fragment = new StylesFragment();
+                        break;
+                    case R.id.action_profile:
+                    default:
+                        fragment = new ProfileFragment();
+                        break;
+                }
+                fragmentManager.beginTransaction().replace(R.id.flContainer, fragment).commit();
+                return true;
+            }
+        });
+        bottomNavigationView.setSelectedItemId(R.id.action_quotes);
 
     }
 
