@@ -34,7 +34,7 @@ The application is programmable to send daily quotes or various quites throughou
 
 - [x] User can login
 - [x] User can Logout
-- [x] User can create a new account
+- [ ] User can create a new account
 - [ ] User can view the quote of the day
 - [ ] User can view a stream of quotes
 - [ ] User can manage its own schedule for receiving more quotes
