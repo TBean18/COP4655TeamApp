@@ -1,20 +1,26 @@
 package com.cop4655.puggymotivation.fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
+import com.cop4655.puggymotivation.MainActivity;
 import com.cop4655.puggymotivation.R;
 import com.parse.ParseUser;
 
 public class ProfileFragment extends Fragment {
     private Button logout;
+    private Button styles;
+    private Button schedule;
     public ProfileFragment () {
 
     }
@@ -33,5 +39,22 @@ public class ProfileFragment extends Fragment {
             ParseUser.logOut();
             getActivity().finish();
         });
+
+        styles = view.findViewById(R.id.buttonStyles);
+        styles.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getActivity(), "Styles", Toast.LENGTH_SHORT).show();
+            }
+        });
+        
+        schedule = view.findViewById(R.id.buttonSchedule);
+        schedule.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getActivity(), "Set Schedule!", Toast.LENGTH_SHORT).show();
+            }
+        });
+        
     }
 }

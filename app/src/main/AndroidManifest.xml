@@ -17,7 +17,8 @@
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login"
-            android:theme="@style/Theme.PuggyMotivation.NoActionBar">
+            android:theme="@style/Theme.PuggyMotivation.NoActionBar"
+            android:exported="true">
             <intent-filter>
 
                 <action android:name="android.intent.action.MAIN" />
