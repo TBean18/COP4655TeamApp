@@ -3,18 +3,14 @@ package com.cop4655.puggymotivation;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
 import com.parse.LogInCallback;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
 import android.util.Log;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -40,9 +36,13 @@ public class LoginActivity extends AppCompatActivity {
         loginButton.setOnClickListener(view -> {
             logInUser(username.getText().toString(), password.getText().toString());
         });
-        signUpButton = findViewById(R.id.buttonSignUp);
+        signUpButton = findViewById(R.id.buttonStartSignUp);
         signUpButton.setOnClickListener(view -> {
-            signUpUser(username.getText().toString(), password.getText().toString());
+            Log.i(TAG, "Start Sign Up Flow ...");
+            Intent i = new Intent(this, SignUpActivity.class);
+            startActivity(i);
+
+//            signUpUser(username.getText().toString(), password.getText().toString());
         });
 
 
