@@ -11,6 +11,19 @@
 1. [Wireframes](#Wireframes)
 1. [Schema](#schema)
 
+# Week 10 Progress
+
+## Completed Stories
+
+- User Can Logout
+- User Can Create an Account
+
+## GIFs
+
+### Create Account and Logout:
+
+<img src="./gifs/Week10SignUpLogOut.gif"/>
+
 ## Overview
 
 ### Description
@@ -34,7 +47,7 @@ The application is programmable to send daily quotes or various quites throughou
 
 - [x] User can login
 - [x] User can Logout
-- [ ] User can create a new account
+- [x] User can create a new account
 - [ ] User can view the quote of the day
 - [ ] User can view a stream of quotes
 - [ ] User can manage its own schedule for receiving more quotes
@@ -90,6 +103,7 @@ The application is programmable to send daily quotes or various quites throughou
 <img src="https://i.imgur.com/bFjZLzu.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
+
 ![PuggyGif1](https://user-images.githubusercontent.com/84410271/161856496-18af0227-7d95-4b81-b08f-3fdca61b6236.gif)
 
 ### [BONUS] Interactive Prototype
