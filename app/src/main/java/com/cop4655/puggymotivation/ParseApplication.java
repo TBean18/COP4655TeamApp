@@ -12,7 +12,7 @@ public class ParseApplication extends Application {
     public void onCreate() {
         super.onCreate();
 // TODO
-//        ParseObject.registerSubclass(Post.class);
+        ParseObject.registerSubclass(Quotes.class);
 
 //        Register Parse
         Parse.initialize(new Parse.Configuration.Builder(this)
