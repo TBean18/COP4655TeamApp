@@ -15,14 +15,31 @@
 
 ## Completed Stories
 
+-User Can Log in
+-User Can Tap on Menu Selection Bar for the buttons of Quotes, Styles, and Profile
+
+# Week 11 Progress
+
+## Completed Stories
+
 - User Can Logout
 - User Can Create an Account
+- User Can See Stream of Quotes
 
 ## GIFs
+
+### Log In
+
+![PuggyGif1](https://user-images.githubusercontent.com/84410271/161856496-18af0227-7d95-4b81-b08f-3fdca61b6236.gif)
 
 ### Create Account and Logout:
 
 <img src="./gifs/Week10SignUpLogOut.gif"/>
+
+### View Stream of Quotes
+
+![PuggyGif2](https://user-images.githubusercontent.com/84410271/162865731-69de63f7-40a2-46da-b0f2-23f5e1271ca6.gif)
+
 
 ## Overview
 
@@ -48,8 +65,8 @@ The application is programmable to send daily quotes or various quites throughou
 - [x] User can login
 - [x] User can Logout
 - [x] User can create a new account
-- [ ] User can view the quote of the day
-- [ ] User can view a stream of quotes
+- [x] User can view the quote of the day
+- [x] User can view a stream of quotes
 - [ ] User can manage its own schedule for receiving more quotes
 - [ ] User can choose styles for its feed and quotes
 - ...
@@ -105,6 +122,10 @@ The application is programmable to send daily quotes or various quites throughou
 ### [BONUS] Digital Wireframes & Mockups
 
 ![PuggyGif1](https://user-images.githubusercontent.com/84410271/161856496-18af0227-7d95-4b81-b08f-3fdca61b6236.gif)
+
+
+![PuggyGif2](https://user-images.githubusercontent.com/84410271/162865731-69de63f7-40a2-46da-b0f2-23f5e1271ca6.gif)
+
 
 ### [BONUS] Interactive Prototype
 
