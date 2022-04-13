@@ -30,7 +30,6 @@ public class QuotesFragment extends Fragment {
 
     public static final String TAG = "QuotesFragment";
     private RecyclerView rvQuotes;
-
     protected QuotesAdapter adapter;
     protected List<Quotes> allQuotes;
     public QuotesFragment() {
@@ -44,20 +43,6 @@ public class QuotesFragment extends Fragment {
         //return inflater.inflate(R.layout.fragment_quotes, container, false);
         return inflater.inflate(R.layout.fragment_quotes, container, false);
     }
-
-//    @Override
-//    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-//        super.onViewCreated(view, savedInstanceState);
-//
-//        rvQuotes = view.findViewById(R.id.rvQuotes);
-//        allQuotes = new ArrayList<>();
-//        adapter = new QuotesAdapter(getContext(), allQuotes);
-//
-//        rvQuotes.setAdapter(adapter);
-//        rvQuotes.setLayoutManager(new LinearLayoutManager(getContext()));
-//        queryPosts();
-//
-//    }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {

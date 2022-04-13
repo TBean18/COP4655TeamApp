@@ -33,11 +33,11 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 Fragment fragment;
                 switch (menuItem.getItemId()) {
-                    case R.id.action_quotes:
-                        fragment = new QuotesFragment();
-                        break;
                     case R.id.action_styles:
                         fragment = new StylesFragment();
+                        break;
+                    case R.id.action_quotes:
+                        fragment = new QuotesFragment();
                         break;
                     case R.id.action_profile:
                     default:

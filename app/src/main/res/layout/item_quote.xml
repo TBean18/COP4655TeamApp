@@ -8,17 +8,21 @@
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/tvPhrase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textSize="34sp"
+        tools:text="Puggy is the best" />
+
+    <TextView
         android:id="@+id/tvAuthor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="TextView"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
         tools:text="Juan" />
 
-    <TextView
-        android:id="@+id/tvPhrase"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        tools:text="Puggy is the best" />
+
 </LinearLayout>

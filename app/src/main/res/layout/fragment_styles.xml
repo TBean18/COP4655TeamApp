@@ -1,14 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical"
+    tools:context=".fragments.StylesFragment">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Testing"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="249dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+        android:id="@+id/btnStyle1"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:padding="15dp"
+        android:text="Style 1" />
+        <Button
+        android:id="@+id/btnStyle2"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:padding="15dp"
+        android:text="Style 2" />
+
+        <Button
+        android:id="@+id/btnStyle3"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:padding="15dp"
+        android:text="Style 3" />
+
+        <Button
+            android:id="@+id/btnStyle4"
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:padding="15dp"
+            android:text="Style 4" />
+    </LinearLayout>
+</LinearLayout>
