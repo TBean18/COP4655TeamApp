@@ -28,12 +28,6 @@
         tools:text="Juan Arango" />
 
     <Button
-        android:id="@+id/buttonStyles"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Styles" />
-
-    <Button
         android:id="@+id/buttonSchedule"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

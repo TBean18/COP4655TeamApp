@@ -20,7 +20,6 @@ import com.parse.ParseUser;
 
 public class ProfileFragment extends Fragment {
     private Button logout;
-    private Button styles;
     private Button schedule;
     public ProfileFragment () {
 
@@ -41,13 +40,7 @@ public class ProfileFragment extends Fragment {
             getActivity().finish();
         });
 
-        styles = view.findViewById(R.id.buttonStyles);
-        styles.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getActivity(), "Styles", Toast.LENGTH_SHORT).show();
-            }
-        });
+
         
         schedule = view.findViewById(R.id.buttonSchedule);
         schedule.setOnClickListener(new View.OnClickListener() {

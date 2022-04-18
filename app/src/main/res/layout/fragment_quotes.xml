@@ -10,5 +10,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvQuotes"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="595dp"
+        android:background="#FFFFFF"
+        android:contextClickable="false" />
 </FrameLayout>
