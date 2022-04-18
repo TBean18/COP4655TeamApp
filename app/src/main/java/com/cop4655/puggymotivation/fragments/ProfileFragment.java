@@ -15,6 +15,7 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.cop4655.puggymotivation.MainActivity;
 import com.cop4655.puggymotivation.R;
+import com.cop4655.puggymotivation.ScheduleActivity;
 import com.parse.ParseUser;
 
 public class ProfileFragment extends Fragment {
@@ -53,6 +54,8 @@ public class ProfileFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getActivity(), "Set Schedule!", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getActivity(), ScheduleActivity.class);
+                startActivity(intent);
             }
         });
         
