@@ -26,7 +26,17 @@
 - User Can Create an Account
 - User Can See Stream of Quotes
 
+# Week 12 Progress
+
+- User can change Quote Styles in Style tab
+- User can set Notification Schedule in profile tab
+- Profile tab now correctly displays username
+
 ## GIFs
+
+### Changing Quote Styles
+![PuggyGIF3](./gifs/initialStyles.gif)
+
 
 ### Log In
 
@@ -67,8 +77,8 @@ The application is programmable to send daily quotes or various quites throughou
 - [x] User can create a new account
 - [x] User can view the quote of the day
 - [x] User can view a stream of quotes
-- [ ] User can manage its own schedule for receiving more quotes
-- [ ] User can choose styles for its feed and quotes
+- [x] User can manage its own schedule for receiving more quotes
+- [x] User can choose styles for its feed and quotes
 - ...
 
 **Optional Nice-to-have Stories**
