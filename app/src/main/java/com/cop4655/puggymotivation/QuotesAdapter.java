@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.cop4655.puggymotivation.fragments.StylesFragment;
 import com.parse.ParseFile;
 
 import java.util.List;

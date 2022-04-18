@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/architects_daughter</item>
+        <item>@font/iceberg</item>
+        <item>@font/playfair_display</item>
+        <item>@font/quintessential</item>
+        <item>@font/sue_ellen_francisco</item>
+        <item>@font/supermercado_one</item>
+    </array>
+</resources>
