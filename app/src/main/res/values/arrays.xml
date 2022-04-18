@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="quoteStyles">
+        <item>@style/StyleOne</item>
+        <item>@style/StyleTwo</item>
+    </array>
+</resources>

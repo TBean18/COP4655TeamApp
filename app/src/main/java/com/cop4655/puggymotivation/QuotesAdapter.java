@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.cop4655.puggymotivation.fragments.QuotesFragment;
 import com.cop4655.puggymotivation.fragments.StylesFragment;
 import com.parse.ParseFile;
 
@@ -52,6 +53,7 @@ public class QuotesAdapter extends RecyclerView.Adapter<QuotesAdapter.ViewHolder
             super(itemView);
             tvAuthor = itemView.findViewById(R.id.tvAuthor);
             tvPhrase = itemView.findViewById(R.id.tvPhrase);
+            tvPhrase.setTextAppearance(QuotesFragment.quoteStyle);
         }
 
         public void bind(Quotes quote) {

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DefaultQuoteStyle" parent="TextAppearance.AppCompat.Large">
+
+    </style>
+    <style name="StyleOne" parent="DefaultQuoteStyle">
+        <item name="fontFamily">@font/architects_daughter</item>
+        <item name="android:text">Architects Daughter</item>
+<!--        <item name="android:textColor">#00FF00</item>-->
+    </style>
+    <style name="StyleTwo" parent="DefaultQuoteStyle">
+        <item name="fontFamily">@font/playfair_display</item>
+        <item name="android:text">Playfair Display</item>
+    </style>
+</resources>

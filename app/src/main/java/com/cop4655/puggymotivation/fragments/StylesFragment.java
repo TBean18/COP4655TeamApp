@@ -12,8 +12,11 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.cop4655.puggymotivation.R;
+import com.cop4655.puggymotivation.StylesAdapter;
 import com.parse.ParseUser;
 import java.lang.reflect.Type;
 
@@ -21,10 +24,8 @@ import com.cop4655.puggymotivation.QuotesAdapter;
 
 public class StylesFragment extends Fragment {
 
-    private Button btnStyle1;
-    private Button btnStyle2;
-    private Button btnStyle3;
-    private Button btnStyle4;
+    private RecyclerView rvStyles;
+    private StylesAdapter adapter;
 
     public StylesFragment () {
 
@@ -38,37 +39,15 @@ public class StylesFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        rvStyles = view.findViewById(R.id.rvStyles);
+        adapter = new StylesAdapter(getContext());
+
+        rvStyles.setAdapter(adapter);
+        rvStyles.setLayoutManager(new LinearLayoutManager(getContext()));
 
         //Next step: have each button selection define the style of the quote shown
         //Each style will have different fonts, size, backgrounds, etc
 
-        btnStyle1 = view.findViewById(R.id.btnStyle1);
-        btnStyle1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getActivity(), "Style1 was selected", Toast.LENGTH_SHORT).show();
-            }
-        });
-        btnStyle2 = view.findViewById(R.id.btnStyle2);
-        btnStyle2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getActivity(), "Style2 was selected", Toast.LENGTH_SHORT).show();
-            }
-        });
-        btnStyle3 = view.findViewById(R.id.btnStyle3);
-        btnStyle3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getActivity(), "Style3 was selected", Toast.LENGTH_SHORT).show();
-            }
-        });
-        btnStyle4 = view.findViewById(R.id.btnStyle4);
-        btnStyle4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getActivity(), "Style4 was selected", Toast.LENGTH_SHORT).show();
-            }
-        });
+
     }
 }

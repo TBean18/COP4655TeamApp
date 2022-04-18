@@ -5,6 +5,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -29,9 +31,13 @@ import java.util.List;
 public class QuotesFragment extends Fragment {
 
     public static final String TAG = "QuotesFragment";
+    public static int quoteStyle = R.style.StyleTwo;
+    private int localQuoteStyle = R.style.StyleTwo;
     private RecyclerView rvQuotes;
     protected QuotesAdapter adapter;
     protected List<Quotes> allQuotes;
+
+
     public QuotesFragment() {
         // Required empty public constructor
     }
@@ -47,6 +53,7 @@ public class QuotesFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
+        localQuoteStyle = quoteStyle;
 
         rvQuotes = view.findViewById(R.id.rvQuotes);
         allQuotes = new ArrayList<>();
@@ -56,6 +63,25 @@ public class QuotesFragment extends Fragment {
         rvQuotes.setLayoutManager(new LinearLayoutManager(getContext()));
         queryQuotes();
 
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if(localQuoteStyle != quoteStyle){
+//            A Style Change has occured
+            Toast.makeText(getContext(), "Updating Styles...", Toast.LENGTH_SHORT).show();
+           rvQuotes.setAdapter(null);
+            rvQuotes.setLayoutManager(null);
+            rvQuotes.setAdapter(adapter);
+            rvQuotes.setLayoutManager(new LinearLayoutManager(getContext()));
+            adapter.notifyDataSetChanged();
+        }
+    }
+
+    public void changeTextStyle(int style){
+        TextView tv = getView().findViewById(R.id.tvPhrase);
+        tv.setTextAppearance(style);
     }
 
 

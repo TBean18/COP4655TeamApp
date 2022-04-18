@@ -9,35 +9,8 @@
     android:orientation="vertical"
     tools:context=".fragments.StylesFragment">
 
-    <LinearLayout
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvStyles"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-        <Button
-        android:id="@+id/btnStyle1"
-        android:layout_width="match_parent"
-        android:layout_height="135dp"
-        android:padding="15dp"
-        android:text="Style 1" />
-        <Button
-        android:id="@+id/btnStyle2"
-        android:layout_width="match_parent"
-        android:layout_height="135dp"
-        android:padding="15dp"
-        android:text="Style 2" />
-
-        <Button
-        android:id="@+id/btnStyle3"
-        android:layout_width="match_parent"
-        android:layout_height="135dp"
-        android:padding="15dp"
-        android:text="Style 3" />
-
-        <Button
-            android:id="@+id/btnStyle4"
-            android:layout_width="match_parent"
-            android:layout_height="135dp"
-            android:padding="15dp"
-            android:text="Style 4" />
-    </LinearLayout>
+        android:layout_height="match_parent"/>
 </LinearLayout>
