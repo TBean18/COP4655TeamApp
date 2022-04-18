@@ -12,4 +12,20 @@
         <item name="fontFamily">@font/playfair_display</item>
         <item name="android:text">Playfair Display</item>
     </style>
+    <style name="StyleThird" parent="DefaultQuoteStyle">
+        <item name="fontFamily">@font/iceberg</item>
+        <item name="android:text">Iceberg</item>
+    </style>
+    <style name="StyleFourth" parent="DefaultQuoteStyle">
+        <item name="fontFamily">@font/sue_ellen_francisco</item>
+        <item name="android:text">Sue Ellen Francisco</item>
+    </style>
+    <style name="StyleFifth" parent="DefaultQuoteStyle">
+        <item name="fontFamily">@font/supermercado_one</item>
+        <item name="android:text">Supermercado One</item>
+    </style>
+    <style name="StyleSixth" parent="DefaultQuoteStyle">
+        <item name="fontFamily">@font/quintessential</item>
+        <item name="android:text">Quintessential</item>
+    </style>
 </resources>

@@ -8,5 +8,6 @@
         android:id="@+id/buttonQuoteStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="StyleName" />
+        android:text="StyleName"
+        />
 </LinearLayout>

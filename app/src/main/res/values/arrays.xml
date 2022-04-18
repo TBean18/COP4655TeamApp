@@ -3,5 +3,9 @@
     <array name="quoteStyles">
         <item>@style/StyleOne</item>
         <item>@style/StyleTwo</item>
+        <item>@style/StyleThird</item>
+        <item>@style/StyleFourth</item>
+        <item>@style/StyleFifth</item>
+        <item>@style/StyleSixth</item>
     </array>
 </resources>
