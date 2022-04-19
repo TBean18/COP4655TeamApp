@@ -5,27 +5,27 @@
     </style>
     <style name="StyleOne" parent="DefaultQuoteStyle">
         <item name="fontFamily">@font/architects_daughter</item>
-        <item name="android:text">Architects Daughter</item>
+        <item name="android:text">Joyful</item>
 <!--        <item name="android:textColor">#00FF00</item>-->
     </style>
     <style name="StyleTwo" parent="DefaultQuoteStyle">
         <item name="fontFamily">@font/playfair_display</item>
-        <item name="android:text">Playfair Display</item>
+        <item name="android:text">Classy</item>
     </style>
     <style name="StyleThird" parent="DefaultQuoteStyle">
         <item name="fontFamily">@font/iceberg</item>
-        <item name="android:text">Iceberg</item>
+        <item name="android:text">Calm</item>
     </style>
     <style name="StyleFourth" parent="DefaultQuoteStyle">
         <item name="fontFamily">@font/sue_ellen_francisco</item>
-        <item name="android:text">Sue Ellen Francisco</item>
+        <item name="android:text">Nature</item>
     </style>
     <style name="StyleFifth" parent="DefaultQuoteStyle">
         <item name="fontFamily">@font/supermercado_one</item>
-        <item name="android:text">Supermercado One</item>
+        <item name="android:text">Retro</item>
     </style>
     <style name="StyleSixth" parent="DefaultQuoteStyle">
         <item name="fontFamily">@font/quintessential</item>
-        <item name="android:text">Quintessential</item>
+        <item name="android:text">Insightful</item>
     </style>
 </resources>
