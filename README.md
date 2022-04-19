@@ -48,7 +48,7 @@
 ![PuggyGif2](https://user-images.githubusercontent.com/84410271/162865731-69de63f7-40a2-46da-b0f2-23f5e1271ca6.gif)
 
 
-### Changing Quote Styles
+### Changing Quote Styles and Scheduling
 ![PuggyGIF3](./gifs/initialStyles.gif)
 
 ![PuggyGif3](https://user-images.githubusercontent.com/84410271/163910248-402528cc-dc26-46e1-bd4a-367bd2c532dd.gif)
