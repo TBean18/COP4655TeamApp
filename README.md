@@ -34,9 +34,6 @@
 
 ## GIFs
 
-### Changing Quote Styles
-![PuggyGIF3](./gifs/initialStyles.gif)
-
 
 ### Log In
 
@@ -49,6 +46,12 @@
 ### View Stream of Quotes
 
 ![PuggyGif2](https://user-images.githubusercontent.com/84410271/162865731-69de63f7-40a2-46da-b0f2-23f5e1271ca6.gif)
+
+
+### Changing Quote Styles
+![PuggyGIF3](./gifs/initialStyles.gif)
+
+![PuggyGif3](https://user-images.githubusercontent.com/84410271/163910248-402528cc-dc26-46e1-bd4a-367bd2c532dd.gif)
 
 
 ## Overview
@@ -135,6 +138,9 @@ The application is programmable to send daily quotes or various quites throughou
 
 
 ![PuggyGif2](https://user-images.githubusercontent.com/84410271/162865731-69de63f7-40a2-46da-b0f2-23f5e1271ca6.gif)
+
+
+![PuggyGif3](https://user-images.githubusercontent.com/84410271/163910322-35b0c4cb-7f7f-40a3-91db-e1274bea4ec8.gif)
 
 
 ### [BONUS] Interactive Prototype
