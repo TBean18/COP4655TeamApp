@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:fontFamily="@font/playfair_display"
-        android:textSize="34sp"
+        android:textSize="48sp"
         tools:text="Puggy is the best" />
 
     <TextView
@@ -23,7 +23,8 @@
         android:fontFamily="serif"
         android:text="TextView"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="24sp"
+        android:textSize="18sp"
+        android:textAlignment="viewEnd"
         tools:text="Juan" />
 
 

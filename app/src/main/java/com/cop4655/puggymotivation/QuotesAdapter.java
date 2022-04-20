@@ -58,7 +58,7 @@ public class QuotesAdapter extends RecyclerView.Adapter<QuotesAdapter.ViewHolder
 
         public void bind(Quotes quote) {
             tvPhrase.setText(quote.getPhrase());
-            tvAuthor.setText(quote.getAuthor());
+            tvAuthor.setText("- " + quote.getAuthor());
         }
     }
 }
