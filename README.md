@@ -86,9 +86,9 @@ The application is programmable to send daily quotes or various quites throughou
 
 **Optional Nice-to-have Stories**
 
-- [ ] User can like a quote
-- [ ] User can share a quote with a direct link to the application
-- [ ] User can comment on the quote
+- [x] User can like a quote
+- [x] User can share a quote with a direct link to the application
+- [x] User can comment on the quote
 - [ ] User can choose what categories of quotes it would like to see more of
 - [ ] User can submit a quote to the team for review
 - ...
