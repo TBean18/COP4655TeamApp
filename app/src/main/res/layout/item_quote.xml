@@ -14,7 +14,8 @@
         android:layout_marginBottom="8dp"
         android:fontFamily="@font/playfair_display"
         android:textSize="48sp"
-        tools:text="Puggy is the best" />
+        tools:text="Puggy is the best"
+        android:background="@color/white"/>
 
     <TextView
         android:id="@+id/tvAuthor"
@@ -26,6 +27,46 @@
         android:textSize="18sp"
         android:textAlignment="viewEnd"
         tools:text="Juan" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal">
+
+
+        <ImageButton
+            android:id="@+id/btnLike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_like"
+            android:background="@color/teal_200"
+            android:paddingHorizontal="25dp"/>
+        <View
+            android:layout_width="15dp"
+            android:layout_height="0dp"/>
+
+        <ImageButton
+            android:id="@+id/btnComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_comment"
+            android:background="@color/teal_200"
+            android:paddingHorizontal="25dp"/>
+        <View
+            android:layout_width="15dp"
+            android:layout_height="0dp"/>
+
+        <ImageButton
+            android:id="@+id/btnShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_share"
+            android:background="@color/teal_200"
+            android:paddingHorizontal="25dp"/>
+
+    </LinearLayout>
 
 
 </LinearLayout>

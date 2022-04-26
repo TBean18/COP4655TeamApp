@@ -4,7 +4,9 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -48,17 +50,47 @@ public class QuotesAdapter extends RecyclerView.Adapter<QuotesAdapter.ViewHolder
 
         private TextView tvAuthor;
         private TextView tvPhrase;
+        private Button buttonLike;
+        private Button buttonComment;
+        private Button buttonShare;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             tvAuthor = itemView.findViewById(R.id.tvAuthor);
             tvPhrase = itemView.findViewById(R.id.tvPhrase);
             tvPhrase.setTextAppearance(QuotesFragment.quoteStyle);
+//            buttonLike = itemView.findViewById(R.id.btnLike);
+//            buttonComment = itemView.findViewById(R.id.btnComment);
+//            buttonShare = itemView.findViewById(R.id.btnShare);
         }
 
         public void bind(Quotes quote) {
             tvPhrase.setText(quote.getPhrase());
             tvAuthor.setText("- " + quote.getAuthor());
+
+//            buttonLike.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View view) {
+////                    Toast.makeText(context,"Quote Liked!", Toast.LENGTH_SHORT).show();
+//                }
+//            });
+//
+//            buttonComment.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View view) {
+////                    Toast.makeText(context,"Comment!", Toast.LENGTH_SHORT).show();
+//                }
+//            });
+//
+//            buttonShare.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View view) {
+////                    Toast.makeText(context,"Quote Shared!", Toast.LENGTH_SHORT).show();
+//                }
+//            });
+
         }
+
+
     }
 }
