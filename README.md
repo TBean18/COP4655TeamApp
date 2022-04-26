@@ -32,6 +32,13 @@
 - User can set Notification Schedule in profile tab
 - Profile tab now correctly displays username
 
+
+# Week 12 Progress
+
+- User can Like quotes
+- User can Comment
+- User can Share
+
 ## GIFs
 
 
@@ -53,6 +60,8 @@
 
 ![PuggyGif3](https://user-images.githubusercontent.com/84410271/163910248-402528cc-dc26-46e1-bd4a-367bd2c532dd.gif)
 
+### Like, Comment, Share
+![PuggyGif4](https://user-images.githubusercontent.com/84410271/165218187-b3df8b9a-d149-4f10-a354-f9ae120c2730.gif)
 
 ## Overview
 
